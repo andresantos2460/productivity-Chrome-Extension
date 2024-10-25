@@ -20,7 +20,7 @@ This was an extension I created to learn how to use javascript and google extens
 
 **1 Step**:
 
-Open the Extensions Page
+
 Open your browser and go to the extensions management page:
 
 Chrome: Type chrome://extensions/ in the address bar and press Enter.
