@@ -1,5 +1,5 @@
 
-# **productivity Extension** 
+# **Productivity Extension** 
 
 This was an extension I created to learn how to use javascript and google extensions. My idea was to create a URL blocker to help me concentrate when I study and not allow me to go to websites that distract me (twitch, youtube, Instagram, etc...)
 
