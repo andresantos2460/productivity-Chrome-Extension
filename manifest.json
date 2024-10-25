@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "My jQuery Extension",
+  "name": "productivity Extension",
   "version": "1.0",
   "permissions": ["activeTab", "tabs", "storage"],
   "background": {
@@ -14,5 +14,10 @@
       "matches": ["<all_urls>"],
       "js": ["jquery-3.7.1.min.js", "content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }

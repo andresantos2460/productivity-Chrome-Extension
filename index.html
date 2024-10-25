@@ -10,17 +10,21 @@
    <style>
      
    </style>
-   <body class="rounded" style="width: 400px; height: 100%;;">
-      <div class="container p-3 border-0 rounded">
+   <body class="rounded " style="width: 300px; height: 100%;">
+      <div class="container p-0 border-0 rounded">
+         <img src="logo_header.png" width="300px" alt="logo">
+         <div class="px-3">
             <form id="form" style="width: fit-content;" class="p-0 pt-3 d-flex align-items-center" action="" method="POST">
-            <div class="">
-               <input type="text"  class="form-control" id="websiteName" name="websiteName" placeholder="www-website.com">
-            </div>
-            <button type="submit" class="btn btn-primary fw-bold ms-3 float-end">Guardar</button>
-         </form>
-         <label class="mt-4" for="">Websites Bloqueados</label>
-         <ul style="list-style: none;" class="p-0 mt-3 blocked">
-         </ul>
+               <div class="">
+                  <input type="text"  class="form-control" id="websiteName" name="websiteName" placeholder="www-website.com">
+               </div>
+               <button type="submit" class="btn btn-primary fw-bold ms-3 float-end">Bloquear</button>
+            </form>
+            <label class="mt-4" for="">Websites Bloqueados</label>
+            <ul style="list-style: none;" class="p-0 mt-3 blocked">
+            </ul>
+         </div>
+         
       </div>
       
       <script src="jquery-3.7.1.min.js"></script>
